@@ -1,0 +1,9 @@
+home_controller:
+    path: /
+    controller: App\Controller\HomeController::index
+app_date_number:
+    path: /date/number
+    controller: App\Controller\DateController::number
+app_date_string:
+    path: /date/string
+    controller: App\Controller\DateController::string
